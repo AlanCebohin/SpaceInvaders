@@ -25,6 +25,8 @@ public class EnemyBulletController : MonoBehaviour
             Instantiate(enemyBulletImpact, collision.transform.position, collision.transform.rotation);
             Destroy(gameObject);
             Destroy(collision.gameObject);
+
+            LivesManager.instance.RemoveLife();
         }
     }
 

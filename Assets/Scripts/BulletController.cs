@@ -25,6 +25,8 @@ public class BulletController : MonoBehaviour
         if (collision.CompareTag("Enemy"))
         {
             Instantiate(bulletImpact, collision.transform.position, collision.transform.rotation);
+            ScoreManager.instance.AddScore();
+
             Destroy(gameObject);
             Destroy(collision.gameObject);
         }

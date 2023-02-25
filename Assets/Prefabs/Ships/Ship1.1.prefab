@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 241383366329475371}
   - component: {fileID: 241383366329475368}
   - component: {fileID: 241383366329475369}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Ship1_Flame2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,7 +103,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -700226645
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: -1
   m_Sprite: {fileID: -2094504065, guid: 700b26e8840e1e84784a658c80a231f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -146,7 +146,7 @@ GameObject:
   m_Component:
   - component: {fileID: 241383366639011375}
   - component: {fileID: 241383366639011372}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Ship1_Lines
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -207,7 +207,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -700226645
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: -19113397, guid: 700b26e8840e1e84784a658c80a231f0, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.5019608}
@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 88466191}
   - component: {fileID: 88466190}
   - component: {fileID: 88466192}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Ship1.1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -297,7 +297,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -700226645
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 154777082, guid: 700b26e8840e1e84784a658c80a231f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -341,7 +341,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
