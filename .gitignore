@@ -14,8 +14,8 @@
 
 *.DS_Store
 *.idea
-*.vscode/*
-*.vsconfig/*
+*.vscode
+*.vsconfig
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
