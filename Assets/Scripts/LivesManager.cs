@@ -35,7 +35,7 @@ public class LivesManager : MonoBehaviour
                 Invoke("Respawn", 2f);
             }
         }
-        else if (livesCounter == 0)
+        if (livesCounter == 0)
         {
             GameManager.instance.GameOver();
         }
